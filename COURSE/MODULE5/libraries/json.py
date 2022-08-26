@@ -1,9 +1,10 @@
-import json
-import random
 from .utils import Utils
+import pandas as pd
+import random
+import json
 
-
-BASE_URL = 'COURSE/DATABASES/data-zIybdmYZoV4QSwgZkFqvC.json'
+# BASE_URL = '/home/etonkou/PycharmProjects/pythonProject/venv/DATA-COLLECTION/COURSE/DATABASES/data-zIybdmYZoV4QSwgZkFqvC.json'
+BASE_URL = '../../COURSE/DATABASES/data-zIybdmYZoV4QSwgZkFqvC.json'
 
 
 class JsonFactory(object):

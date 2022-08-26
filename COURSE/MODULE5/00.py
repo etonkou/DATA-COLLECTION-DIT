@@ -4,7 +4,7 @@ import random
 
 import pandas as pd
 
-BASE_URL = 'COURSE/DATABASES/data-_zJ9Zko2Dh1LYlNNgALKE.csv'
+BASE_URL = '~/PycharmProjects/pythonProject/venv/DATA-COLLECTION/COURSE/DATABASES/data-_zJ9Zko2Dh1LYlNNgALKE.csv'
 
 
 class Utils(object):

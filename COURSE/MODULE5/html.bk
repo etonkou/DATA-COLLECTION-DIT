@@ -1,0 +1,25 @@
+from libraries.utils import Utils
+import json
+#from .utils import Utils
+from bs4 import BeautifulSoup
+
+
+BASE_URL = '~/PycharmProjects/pythonProject/venv/DATA-COLLECTION/COURSE/DATABASES/data-zIybdmYZoV4QSwgZkFtaB.html'
+# BASE_URL = 'COURSE/DATABASES/data-zIybdmYZoV4QSwgZkFtaB.html'
+
+
+class HtmlFactory(object):
+    @classmethod
+    def openFile(cls):
+        with open(BASE_URL) as file:
+            data = file.read()
+            data = BeautifulSoup(
+                data,
+                'html.parser')
+            file.close()
+        return data
+
+    @classmethod
+    def main(cls):
+        data = cls.openFile()
+        return data

@@ -3,7 +3,8 @@ import pandas as pd
 import json
 
 
-BASE_URL = 'COURSE/DATABASES/data-_zJ9Zko2Dh1LYlNNgALKE.csv'
+# BASE_URL = '~/PycharmProjects/pythonProject/venv/DATA-COLLECTION/COURSE/DATABASES/data-_zJ9Zko2Dh1LYlNNgALKE.csv'
+BASE_URL = '../../COURSE/DATABASES/data-_zJ9Zko2Dh1LYlNNgALKE.csv'
 
 
 class CsvFactory(object):
